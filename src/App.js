@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route exact path="/" Component={BlogPostList} />
+        <Route exact path="/blogger" Component={BlogPostList} />
         <Route path="/post/:title" Component={BlogPostDetails} />
       </Routes>
     </Router>

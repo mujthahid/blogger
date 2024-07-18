@@ -40,7 +40,7 @@ const BlogPostDetails = () => {
     return (
         <Container>
             <Box position={'relative'} display={'flex'} flexDirection={'column'} gap={3} p={{ xs: 5, sm: 8, md: 15 }} backgroundColor={'#f5f5f5'}>
-                <Link position={'absolute'} top={'15px'} left={'15px'} href="/"><ForwardRoundedIcon sx={{ color: 'black', transform: 'rotate(180deg)', fontSize: { xs: '24px', sm: '28px', md: '32px', lg: '36px' } }} /></Link>
+                <Link position={'absolute'} top={'15px'} left={'15px'} href="/blogger"><ForwardRoundedIcon sx={{ color: 'black', transform: 'rotate(180deg)', fontSize: { xs: '24px', sm: '28px', md: '32px', lg: '36px' } }} /></Link>
                 <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'column', md: 'row' }, justifyContent: 'space-between', paddingTop: { xs: '10px', sm: '10px', md: '10px', lg: '10px' } }}>
                     <Box bgcolor={'black'} color={'white'} p={2} display={'flex'} flexDirection={'column'} justifyContent={'space-between'}>
                         <Typography variant='h5' fontWeight={'bold'} fontSize={{ xs: '15px', sm: '18px', md: '21px', lg: '24px' }} >{post.title}</Typography>

@@ -22,6 +22,6 @@ describe('Navbar', () => {
     test('contains a Link with the correct href attribute', () => {
         render(<Navbar />);
         const linkElement = screen.getByRole('link', { name: /Blogger/i });
-        expect(linkElement).toHaveAttribute('href', '/');
+        expect(linkElement).toHaveAttribute('href', '/blogger');
     });
 });
