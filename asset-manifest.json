@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/blogger/static/css/main.e6c13ad2.css",
+    "main.js": "/blogger/static/js/main.672c189f.js",
+    "static/js/453.d58bf4ca.chunk.js": "/blogger/static/js/453.d58bf4ca.chunk.js",
+    "index.html": "/blogger/index.html",
+    "main.e6c13ad2.css.map": "/blogger/static/css/main.e6c13ad2.css.map",
+    "main.672c189f.js.map": "/blogger/static/js/main.672c189f.js.map",
+    "453.d58bf4ca.chunk.js.map": "/blogger/static/js/453.d58bf4ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.672c189f.js"
+  ]
+}
